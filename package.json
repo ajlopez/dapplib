@@ -1,0 +1,18 @@
+{ "name": "dapplib"
+, "description": "Library to access Ethereum/RSK nodes. It can be use in dapps (distributed applications)."
+, "keywords": [ "rsk", "ethereum", "api", "web3", "dapp", "dapplib" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/dapplib.git" }
+, "main": "./lib/dapplib.js"
+, "engines": { "node": ">= 0.12.0" }
+, "scripts": {
+    "test": "simpleunit -r ./test"
+  }
+, "dependencies": {
+	"simplejsonrpc": "0.0.2"
+  }
+, "devDependencies": {
+    "simpleunit": "0.0.7"
+  }
+}
